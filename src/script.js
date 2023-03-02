@@ -3,7 +3,7 @@ import { router } from "./router/router.js";
 (()=>{ 
 
     document.addEventListener("DOMContentLoaded", function () {
-      window.location.hash = '#/menu';
+      window.location.hash = '#/login';
       router(window.location.hash);
   
     });
